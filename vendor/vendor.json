@@ -1,0 +1,183 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "awH0udAyzV8zYKBShHEfpHyM9fI=",
+			"path": "github.com/daviddengcn/go-colortext",
+			"revision": "511bcaf42ccd42c38aba7427b6673277bf19e2a1",
+			"revisionTime": "2016-05-07T01:00:35Z"
+		},
+		{
+			"checksumSHA1": "fMUizjvnIMmGpZKr1M1LV9hXcho=",
+			"path": "github.com/fernandosanchezjr/anko/ast",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "vshjLGvzZDUSib/IwvpbxvNIRqs=",
+			"path": "github.com/fernandosanchezjr/anko/builtins",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "LCSTZkdTJH6jyLuyyw1Vsmj0RAc=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/encoding/json",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "0lrh4kHI3WfzVDDdLUdciO8h6DA=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/flag",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "2hVGeZGFp37lJwiz93cJ0D8xMLE=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/fmt",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "vphpZ/o4scleZPbcvDgVG30GpMo=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/github.com/daviddengcn/go-colortext",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "MIFpZsFKM6Q5HCPKELU15gZZ90c=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/io",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "xKiPDK0ugF00409O70CZ7PBsqr8=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/io/ioutil",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "wYdTYDdDjWXlEqdf8C4X/vevwgs=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/math",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "0n7bt/Y/CnVVxQbVW1a9Sdcwif8=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/math/rand",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "Hfan0kF2i9QvFy1+D9uNerB9Ru4=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/net",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "H6jXb1pP10jTWVWxC4PkQoTPmF8=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/net/http",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "Ip4Kmbq/g5BAxGK0Rv9r9fv5D2I=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/net/url",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "3VtkRESRweGBj8QneBL+hA+CDxw=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/os",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "pJbLehe1TUHy/lZ1Q0+R3OwXgkw=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/os/exec",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "tl4lyv5TJQPlDCHilU8uQuj+qiM=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/os/signal",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "ZJzCjGWbRrEY3U7y22Kb1YVAB3k=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/path",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "7rCbFfnbaL4tvpc3/aU8KKbrp5k=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/path/filepath",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "mBu8IdFJQ3WjhjrYpHHeH0sLXiI=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/regexp",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "2/xCjmYuYXJoQKvqPWWSLBbzd9c=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/runtime",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "R3kuHxmEvJe1yShonWE1+PN1OFw=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/sort",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "ktax/XF3BA8H0hoykeLPNLIlOL4=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/strings",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "hBTkpk+v3caRmxFY+efzbZCglBk=",
+			"path": "github.com/fernandosanchezjr/anko/builtins/time",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "SwKn3eL3vN4N33Py0/hBfAlc/8M=",
+			"path": "github.com/fernandosanchezjr/anko/parser",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "8H88NuhvFylQz8fpor/r2DM2cGA=",
+			"path": "github.com/fernandosanchezjr/anko/vm",
+			"revision": "125e5b042bee8d7f64f6d0e0b6968a089acc2808",
+			"revisionTime": "2016-05-09T04:21:28Z"
+		},
+		{
+			"checksumSHA1": "xZuhljnmBysJPta/lMyYmJdujCg=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "30a891c33c7cde7b02a981314b4228ec99380cca",
+			"revisionTime": "2016-11-23T14:36:37Z"
+		},
+		{
+			"checksumSHA1": "uTQtOqR0ePMMcvuvAIksiIZxhqU=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "d75a52659825e75fff6158388dddc6a5b04f9ba5",
+			"revisionTime": "2016-12-14T18:38:57Z"
+		},
+		{
+			"path": "https://github.com/fernandosanchezjr/anko",
+			"revision": ""
+		},
+		{
+			"path": "https://github.com/fernandosanchezjr/anko.git",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/kd2718/goanko"
+}
