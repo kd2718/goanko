@@ -1,0 +1,54 @@
+[4:44 PM] Fernando Sanchez, Jr.: I am playing with gomachine:
+[4:44 PM] Fernando Sanchez, Jr.: which is the machine "specification" implemented in go
+[4:44 PM] Fernando Sanchez, Jr.: bins can not only store data
+[4:44 PM] Fernando Sanchez, Jr.: they can also store functions, called Beats
+[4:44 PM] Fernando Sanchez, Jr.: you can call beats
+[4:45 PM] Fernando Sanchez, Jr.: beats are inherited from the parent, but you can replace beats at any level
+[4:45 PM] Fernando Sanchez, Jr.: and it changes what is inherited, mind you
+[4:45 PM] Fernando Sanchez, Jr.: if you change a beat, any existing descendants remain as they were when they came up
+[4:46 PM] Fernando Sanchez, Jr.: you can call beats on parent bins, any child bin, other bins by DID
+[4:46 PM] Fernando Sanchez, Jr.: and you run inquiries to extract a query-like result from it
+[4:46 PM] Fernando Sanchez, Jr.: you can run inquiries from bins in beats
+[4:46 PM] Fernando Sanchez, Jr.: you can do whatever
+[4:47 PM] Fernando Sanchez, Jr.: inquiries are thrown at a did, and trickle up the tree until a stop condition (depth in tree, return values from inquiry functions, or just plain reaching the leaves) is met
+[4:47 PM] Kory Donati: that is really flexible
+[4:47 PM] Kory Donati: i really want to do some ML stuff sometime
+[4:47 PM] Fernando Sanchez, Jr.: and inquiries are pretty much map reduce
+[4:48 PM] Fernando Sanchez, Jr.: cos you can add accumulating funcs that work at every bin, handling results from child bins as they are accumulated down the tree back to the inquirer
+[4:49 PM] Fernando Sanchez, Jr.: and it comes with a dynamic scripting language with a shell
+[4:49 PM] Fernando Sanchez, Jr.: you can run scripts and shiz
+[4:49 PM] Fernando Sanchez, Jr.: https://github.com/fernandosanchezjr/anko
+[4:49 PM] Fernando Sanchez, Jr.: that's the scripting engine I use
+[4:50 PM] Fernando Sanchez, Jr.: super fast, even though it uses reflection at runtime for dynamic type resolution
+[4:51 PM] Fernando Sanchez, Jr.: machine is what nebri would be if we all smoked a lot of crack and did really weird shit
+[4:52 PM] Kory Donati: lol
+[4:52 PM] Kory Donati: if adam had money rolling, we would be doing machine?
+[4:52 PM] Fernando Sanchez, Jr.: I dunno
+[4:52 PM] Fernando Sanchez, Jr.: but I am feeling like I need to come back to this
+[4:52 PM] Fernando Sanchez, Jr.: nebri is really nice
+[4:52 PM] Fernando Sanchez, Jr.: but we kinda need a differentiator
+[4:53 PM] Fernando Sanchez, Jr.: this thing is already persistent to disk, pretty solid
+[4:53 PM] Fernando Sanchez, Jr.: I need to use it as a user and build some far out shit
+[4:57 PM] Kory Donati: i feel the need to dive back into go also. I took a bit of time off when my birthday rolled around. got crazy with video games for a while. I really want to get that beego site rolling again and move on to the next things
+[4:57 PM] Fernando Sanchez, Jr.: forget beego for a bit
+[4:57 PM] Kory Donati: lol ok
+[4:57 PM] Fernando Sanchez, Jr.: look at anko instead
+[4:58 PM] Fernando Sanchez, Jr.: I know you can figure out whatever else on beego
+[4:58 PM] Fernando Sanchez, Jr.: that's a given
+[4:58 PM] Fernando Sanchez, Jr.: my version of anko was changed around so as to be able to serialize anything from it
+[4:58 PM] Fernando Sanchez, Jr.: anything gob-encodeable, that is
+[5:00 PM] Kory Donati: ok cool
+[5:00 PM] Fernando Sanchez, Jr.: https://github.com/fernandosanchezjr/anko/blob/master/anko.go
+[5:00 PM] Kory Donati: i will take a look this weekend
+[5:00 PM] Fernando Sanchez, Jr.: that's an embedding of it
+[5:00 PM] Fernando Sanchez, Jr.: a shell of it
+[5:00 PM] Fernando Sanchez, Jr.: you can probably figure out how to embed just the VM in your code
+[5:00 PM] Fernando Sanchez, Jr.: and run a string of anko code
+[5:01 PM] Fernando Sanchez, Jr.: there's an example that deals with this specifically
+[5:01 PM] Fernando Sanchez, Jr.: check out what is needed to be done to make things gob-encodeable
+[5:01 PM] Fernando Sanchez, Jr.: and I pretty much took some guy's project, fixed all the structs to make everything gob-encodeable and added some new features
+[5:03 PM] Kory Donati: lol nice
+[5:03 PM] Kory Donati: think you will make a PR for that back in?
+[5:03 PM] Kory Donati: also I need to get going
+[5:03 PM] Fernando Sanchez, Jr.: nah
+[5:03 PM] Fernando Sanchez, Jr.: I will leave this public and keep a link to the author's version in it
