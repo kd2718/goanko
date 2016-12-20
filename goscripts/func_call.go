@@ -4,6 +4,7 @@ package goscripts
 import (
 	"fmt"
   "github.com/fernandosanchezjr/anko/vm"
+	"github.com/fernandosanchezjr/anko/parser"
 )
 var blast = func(){
 	fmt.Println("I will blast you!!")
@@ -71,20 +72,21 @@ func Anko_pass_value(env *vm.Env) (string, error){
 	return basic_exe(env, script)
 }
 
-func Anko_inner_def_call(env *vm.Env) (string, error){
+func Anko_inner_def_call(env *vm.Env) (string, error) {
 	script := `
-	var x = 0
 	println(x,y)
-	var out = func(x int){
-	println("you picked")
-	}
+	var out = func(x, y){
+	println("you picked", x+y)
+	}(x, y)
 	`
-	//	var killer = func(x, y int){
-	//println(x, y)
-	//}
-	//killer(a, b)
+	pscript, err := parser.ParseSrc(script)
+	if err != nil {
+		fmt.Println("error parsing", err)
+		return "", err
+	}
 	env.Define("x", 5)
 	env.Define("y", 20)
+	out, err:= vm.Run(pscript, env)
 
-	return basic_exe(env, script)
+	return fmt.Sprint(out), err
 }
