@@ -77,7 +77,8 @@ func Anko_inner_def_call(env *vm.Env) (string, error) {
 	println(x,y)
 	var out = func(x, y){
 	println("you picked", x+y)
-	}(x, y)
+	}
+	out(x, y)
 	`
 	pscript, err := parser.ParseSrc(script)
 	if err != nil {
